@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --theam-color: #327dd4;
+    --text-color: white;
+    --bg-color: #3D4957;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+.signup-text,.signup-form{
+    border-radius: 15px 0 0 15px;
+}
+.signup-form{
+    border-radius: 0 15px 15px 0;
+}
+.signup-text{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+.signup-form{
+    background: var(--text-color); 
+    
+}
+::placeholder{
+    font-size:15px;
+}

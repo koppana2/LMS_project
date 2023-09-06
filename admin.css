@@ -1,0 +1,50 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --theam-color: #327dd4;
+    --text-color: white;
+    --bg-color: #3D4957;
+}
+/* 
+body {
+    margin: 0;
+    background-color: black;
+} */
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #87898a;
+    text-align: left;
+    background-color: black;
+  }
+  /* .navbar-nav {
+    background-color:var(--bg-color);
+  } */
+  .sidebar-brand-icon img{
+    height: 40px;
+    width: 50px;
+  }
+  .sp1{
+    color: var(--text-color);
+  }
+  .span-color{
+    color: var(--theam-color);
+  }
+  .sidebar-brand-icon{
+    font-size:20px;
+  }
+  .item-color{
+    color: var(--text-color);
+    font-size:17px;
+  }
+  .icon-image{
+    height:35px;
+    width: 35px;
+  }

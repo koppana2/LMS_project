@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- Favicons -->
+    <link href="./images/image/g.jpg" rel="icon">
+
+    <title>LearnXtra</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <img src="./images/image/logo.png" style=" height:40px; width:60px;" alt="mainlogo">
+        <div class="navbar-brand logo" href="#">Learn<span>Xtra</span></div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+
+                    <a class="nav-link active" href="#" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/service.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/contactus.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="button">
+                <button class="btn0 font-weight-bold" type="submit" data-target="#mymodal-1" data-toggle="modal">Login</button>
+                <button class="btn0 font-weight-bold" type="submit" data-target="#mymodal-2" data-toggle="modal">Signup</button>
+            </div>
+        </div>
+
+    </nav>
+    <br><br>
+
+    <!--signup  Modal -->
+    <div class="modal fade" id="mymodal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="row signup-box">
+                    <div class="col-6 signup-text">
+                        <h2 class=" text-center mt-5">Wecome Back!</h2><br><br><br>
+                        <p class="text-center">To keep connect with us plese us</p>
+                        <p class="text-center">login with your personal info</p>
+                        <br><br>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg" data-target="#mymodal-1" data-toggle="modal">Login</button>
+                        </div>
+                    </div>
+                    <div class="col-6 signup-form">
+                        <form action="" class="">
+                            <div class="form-heading">
+                                <h3 class="text-center mt-1">Create Account</h3><br>
+
+                            </div>
+                            <div class="form-outline mt-1">
+                                <input type="text" id="form3Example3" class="form-control form-control-lg"
+                                    placeholder="Enter a valid email address" />
+                                <label class="form-label" for="form3Example3">User name</label>
+                            </div>
+                            <div class="form-outline mt-1">
+                                <input type="email" id="form3Example3" class="form-control form-control-lg"
+                                    placeholder="Enter a valid email address" />
+                                <label class="form-label" for="form3Example3">Email address</label>
+                            </div>
+                            <div class="form-outline mb-1">
+                                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                    placeholder="Enter password" />
+                                <label class="form-label" for="form3Example4">Password</label>
+                            </div>
+                            <div class="form-outline mb-1">
+                                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                    placeholder="Enter password" />
+                                <label class="form-label" for="form3Example4">Confirm Password</label>
+                            </div>
+
+                            <div class="text-center text-lg-start mt-1 pt-2 ">
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary "
+                                        style="padding-left: 2.5rem; padding-right: 2.5rem; width:100%;">Signup</button>
+                                </div>
+                                <p class=" login-footer small fw-bold mt-1 pt-1 text-center">Already have an account? <a
+                                        href="#" data-target="#mymodal-1" data-toggle="modal" class="link-danger">Login</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- login modal -->
+
+    <div class="modal fade" id="mymodal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="row signup-box">
+                    <div class="col-6 signup-text">
+                        <h2 class=" text-center mt-5">Hello,Friend!</h2><br><br><br>
+                        <p class="text-center">Enter your personal details and</p>
+                        <p class="text-center">start journey with us</p>
+                        <br><br>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg" data-target="#mymodal-2" data-toggle="modal">SignUp</button>
+                        </div>
+                    </div>
+
+                    <div class="col-6 signup-form">
+                        <form action="" class="mb-4">
+                            <div class="form-heading">
+                                <h3 class="text-center mt-4">Login</h3><br>
+                            </div>
+
+                            <div class="form-outline mt-1">
+                                <input type="email" id="form3Example3" class="form-control form-control-lg"
+                                    placeholder="Enter a valid email address" />
+                                <label class="form-label" for="form3Example3">Email address</label>
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-3">
+                                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                    placeholder="Enter password" />
+                                <label class="form-label" for="form3Example4">Password</label>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <!-- Checkbox -->
+                                <div class="form-check mb-0">
+                                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                                    <label class="form-check-label" for="form2Example3">
+                                        Remember me
+                                    </label>
+                                </div>
+                                <a href="#!" class="text-body">Forgot password?</a>
+                            </div>
+                            <div class="text-center text-lg-start mt-4 pt-2">
+                                <button type="button" class="btn btn-primary btn-lg"
+                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+                                <p class="  login-footer small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a
+                                        href="#" data-target="#mymodal-2" data-toggle="modal" class="link-danger">Register</a></p>
+                            </div>
+
+                            <div class="social-icon ">
+                                <ul class="d-flex list-unstyled justify-content-center">
+                                    <li><img src="./images/icon/facebook.png" alt=""></li>
+                                    <li><img src="./images/icon/insta.png" alt=""></li>
+                                    <li><img src="./images/icon/twiter.png" alt=""></li>
+                                </ul>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- main content page -->
+    <div class="content mt-lg-5">
+        <div>
+            <h5>Learning Plateform</h5><br>
+            <h1>Delivering Excellence with</h1>
+            <h1>Innovative Environment...</h1>
+        </div><br>
+        <div class="text-center">
+            <a class="btn read-more-btn" href="./html/about.html"> Read More</a>
+
+        </div>
+    </div>
+
+
+
+    <!-- Team Start -->
+    <div class="container">
+        <div class="container">
+            <hr>
+            <div class="text-center pb-2">
+                <h4 class="title">
+                    Our Teachers
+                </h4>
+                <h2 class="mb-4">Meet Our Teachers</h2>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 50%;">
+                        <img class="img-fluid w-100" src="./images/image/team-1.jpg" alt="">
+                    </div>
+                    <h5>Sita</h5>
+                    <i class="subject">Dad calls me chimtu</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 50%;">
+                        <img class="img-fluid w-100" src="./images/image/team-2.jpg" alt="">
+                    </div>
+                    <h5>PRASAD</h5>
+                    <i class="subject">Lipstick Spolier</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius:50%;">
+                        <img class="img-fluid w-100" src="./images/image/team-3.jpg" alt="">
+                    </div>
+                    <h5>Merry Ross</h5>
+                    <i class="subject">Ice Fruit</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 50%;">
+                        <img class="img-fluid w-100" src="./images/image/team-4.jpg" alt="">
+                    </div>
+                    <h5>Sai Ram</h5>
+                    <i class="subject">Sex Raja</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Registration Start -->
+    <div class="container py-5">
+        <div class="container">
+            <hr>
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <h5>Book A Seat</h5>
+                    <h1 class="mb-4">Book A Seat For Courses</h1>
+                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
+                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
+                        dolor</p>
+                    <ul class="list-inline m-0">
+                        <li></i>Labore eos amet dolor amet diam</li>
+                        <li></i>Etsea et sit dolor amet ipsum</li>
+                        <li></i>Diam dolor diam elitripsum vero.</li>
+                    </ul>
+                    <a href="./html/service.html" class="btn btn3 mt-4 py-2 px-4">More</a>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card border-0">
+                        <div class="card-header bg-secondary text-center p-4">
+                            <h1 class="text-white card-header m-0">Book A Seat</h1>
+                        </div>
+                        <div class="card-body rounded-bottom card-color p-5">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control border-0 p-4" placeholder="Your Name"
+                                        required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control border-0 p-4" placeholder="Your Email"
+                                        required="required" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control border-0 p-4" placeholder="Enter Course"
+                                        required="required" />
+                                </div>
+
+                                <div>
+                                    <button class="btn card-footer btn-block border-0 " type="submit">Book
+                                        Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Registration End -->
+
+    <!-- .................footer.................  -->
+    <div class="footer text-center text-md-start">
+        <!-- Grid row -->
+        <div class="row">
+            <!-- Grid column -->
+            <div class=" col-lg-4 col-xl-3 col-md-3 mx-auto">
+                <!-- Content -->
+                <h3 class="footer-header">
+                    <img src="./images/image/logo.png" style=" height:25px; width:35px;" alt="mainlogo">
+                    <i class="fas fa-gem me-3"></i>Learn<span>Xtra</span>
+
+                </h3>
+                <p>
+                    Here you can use rows and columns to organize your footer content. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <div class="social-icon ">
+                    <ul class="d-flex list-unstyled justify-content-center">
+                        <li><img src="./images/icon/facebook.png" alt=""></li>
+                        <li><img src="./images/icon/insta.png" alt=""></li>
+                        <li><img src="./images/icon/telegram.png" alt=""></li>
+                        <li><img src="./images/icon/twiter.png" alt=""></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto ">
+                <!-- Links -->
+                <h3 class="footer-header">
+                    Services
+                </h3>
+                <p>
+                    <a href="#!" class="text-reset">Online Courses</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Offline Courses</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Training</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Placement</a>
+                </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 text-center">
+                <!-- Links -->
+                <h3 class="footer-header">
+                    Contact
+                </h3>
+
+                <p><i class="fas fa-home me-3"></i> SR Nagar, Hyderabad, Telangana</p>
+                <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    learnxtra@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+            <div class="col-lg-3">
+                <h3 class="footer-header">News Letter</h3>
+                <hr>
+                <form>
+                    <input type="text" class="form-control" name="name" placeholder="Enter your name"><br>
+                    <input type="text" class="form-control" name="mail" placeholder="Enter your email"><br>
+                    <button class="btn btn6 btn-block">submit</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-primary font-weight-bold" href="#">LearXtra</a>. All Rights Reserved. Designed
+                by
+                <a class="text-primary font-weight-bold" href="https://learnxtra.com">LearnXtraTeam</a>
+            </p>
+        </div>
+
+
+        <!-- Footer -->
+
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

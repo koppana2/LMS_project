@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --theam-color: #327dd4;
+    --text-color: white;
+    --bg-color: #3D4957;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+h1,h3 {
+    text-align: center;
+    color: var(--text-color);
+}
+h2,strong{
+    color: var(--text-color);  
+}
+h4,h5,h6 {
+    font-size: 1.08rem;
+    text-align: center;
+    color: var(--theam-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+ul li {
+    color: var(--text-color);
+}
+.navbar-dark.scrolled{
+    background:var(--theam-color);
+    transition: 5s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: var(--theam-color);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--text-color);
+    font-size:15px ;
+    font-weight: bold;
+}
+
+.card-color {
+    background: var(--theam-color);
+
+}
+
+.card-header {
+    background-color: var(--bg-color);
+
+}
+
+.card-footer {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+span {
+    color: var(--theam-color);
+}
+
+
+a .subject{
+    color: var(--text-color);
+   
+}
+.button a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn0 {
+    margin-left:10px;
+    height: 40px;
+    width: 80px;
+    outline: none;
+    border: none;
+    background: var(--theam-color);
+    color: var(--text-color);
+    border-radius:50px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--theam-color);
+}
+
+.navbar-dark .navbar-nav li {
+    margin: 20px;
+}
+
+.content {
+    margin-bottom:8rem;
+}
+
+.btn6 {
+    background: var(--theam-color);
+    color: var(--text-color);
+}
+
+.btn3 {
+    height: 40px;
+    width: 25%;
+    outline: none;
+    border: none;
+    background: var(--theam-color);
+    color: var(--text-color);
+    border-radius: 60px;
+
+}
+
+.read-more-btn {
+    background: var(--theam-color);
+    color: var(--text-color);
+    height: 40px;
+    width: 8rem;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 6px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #fff;
+}
+.subject{
+    color: var(--text-color); 
+}
+
+.footer {
+    padding:30px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+.footer-header{
+    color: var(--text-color);
+    font-size: 1.08rem;  
+}
+
+/* ---------------about us--------------------- */
+
+/* sevices */
+.card-img{
+    overflow:hidden;
+}
+.card-img img{
+    transition:all 1.3s ease;
+}
+.card-img:hover img{
+    transform:scale(1.2);
+}
+
+/* login */
+
+
+/* signup */
+.signup-text{
+    background:  var(--bg-color);
+}
+.signup-box{
+    height:500px;
+    
+}
+.form-heading h3
+{
+    color: var(--theam-color);  
+}
+.login-footer{
+    color: black;
+
+}
+.form-outline input{
+    border-radius:30px;
+   
+}
+.signup-form{
+    background-color: white;
+}
+::placeholder{
+    font-size:13px;
+}
+
+.social-icon img{
+    height:35px;
+    width: 35px;
+    padding: 7px;
+}
+
+/* carowsel */
+/* .card{
+    background-color: rgb(194, 232, 232);
+    height:250px;
+    width: 250px;
+} */
